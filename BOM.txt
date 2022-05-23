@@ -1,0 +1,13 @@
+https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BH32T-C-G/2079906
+
+https://www.digikey.com/en/products/detail/microchip-technology/ATTINY84-20SSU/1886247
+
+https://www.amazon.com/HiLetgo-Serial-SSH1106-Display-Arduino/dp/B01MRR4LVE/ref=sr_1_1_sspa?crid=2YTUE0T1OL89I&keywords=oled+display+i2c&qid=1653292472&sprefix=oled+d%2Caps%2C166&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySUlPTDRRSkk1MDJRJmVuY3J5cHRlZElkPUEwMjQwMDcwTllVQzlRQ01IVUVSJmVuY3J5cHRlZEFkSWQ9QTA4ODg0NDQzTEFRQVdWMEhIVDRUJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+
+https://www.digikey.com/en/products/detail/cui-devices/CSS-0575A-SMT-TR/2364642
+
+https://www.digikey.com/en/products/detail/susumu/RG2012P-101-B-T5/1240651
+
+https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262
+
+https://www.digikey.com/en/products/detail/e-switch/EG1218/101726
