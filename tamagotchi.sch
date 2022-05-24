@@ -9,6 +9,20 @@
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
@@ -152,151 +166,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="PiB_connectors">
-<packages>
-<package name="HDRVR4W75P254_1X4_1066X254X850B" urn="urn:adsk.eagle:footprint:4517832/1" locally_modified="yes">
-<description>Single-row, 4-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 10.66 X 2.54 X 8.50 mm body
-&lt;p&gt;Single-row (1X4), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 10.66 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<wire x1="9.315" y1="-1.27" x2="-1.695" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="-1.695" y1="-1.27" x2="-1.695" y2="1.27" width="0.12" layer="21"/>
-<wire x1="-1.695" y1="1.27" x2="9.315" y2="1.27" width="0.12" layer="21"/>
-<wire x1="9.315" y1="1.27" x2="9.315" y2="-1.27" width="0.12" layer="21"/>
-<wire x1="9.315" y1="-1.27" x2="-1.695" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-1.695" y1="-1.27" x2="-1.695" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.695" y1="1.27" x2="9.315" y2="1.27" width="0.12" layer="51"/>
-<wire x1="9.315" y1="1.27" x2="9.315" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
-<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
-<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
-<text x="-1.905" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="9.525" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-1.905" y1="1.397" x2="-1.905" y2="-1.397" width="0.127" layer="39"/>
-<wire x1="-1.905" y1="-1.397" x2="9.525" y2="-1.397" width="0.127" layer="39"/>
-<wire x1="9.525" y1="-1.397" x2="9.525" y2="1.397" width="0.127" layer="39"/>
-<wire x1="9.525" y1="1.397" x2="-1.905" y2="1.397" width="0.127" layer="39"/>
-<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="-1.143" y1="-1.143" x2="8.763" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="8.763" y1="-1.143" x2="8.763" y2="1.143" width="0.127" layer="40"/>
-<wire x1="8.763" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
-<circle x="-1.8" y="-1.4" radius="0.5" width="0" layer="21"/>
-</package>
-<package name="HDRV4W64P254_1X4_1016X254X838B" urn="urn:adsk.eagle:footprint:7911619/1" locally_modified="yes">
-<description>Single-row, 4-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 10.16 X 2.54 X 8.38 mm body
-&lt;p&gt;Single-row (1X4), 4-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 10.16 X 2.54 X 8.38 mm, pin pattern - counter-clockwise from bottom left&lt;/p&gt;</description>
-<circle x="-5.3" y="-1.5" radius="0.5" width="0" layer="21"/>
-<wire x1="5.1707" y1="-1.3591" x2="-5.1707" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="-5.1707" y1="-1.3591" x2="-5.1707" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="-5.1707" y1="1.3591" x2="5.1707" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="5.1707" y1="1.3591" x2="5.1707" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.12" layer="51"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="1" diameter="1.85"/>
-<pad name="2" x="-1.27" y="0" drill="1" diameter="1.85"/>
-<pad name="3" x="1.27" y="0" drill="1" diameter="1.85"/>
-<pad name="4" x="3.81" y="0" drill="1" diameter="1.85"/>
-<text x="-5.3" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="5.3" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-5.3" y1="1.5" x2="-5.3" y2="-1.5" width="0.127" layer="39"/>
-<wire x1="-5.3" y1="-1.5" x2="5.3" y2="-1.5" width="0.127" layer="39"/>
-<wire x1="5.3" y1="-1.5" x2="5.3" y2="1.5" width="0.127" layer="39"/>
-<wire x1="5.3" y1="1.5" x2="-5.3" y2="1.5" width="0.127" layer="39"/>
-<wire x1="-4.9" y1="-1.1" x2="4.9" y2="-1.1" width="0.127" layer="40"/>
-<wire x1="4.9" y1="-1.1" x2="4.9" y2="1.1" width="0.127" layer="40"/>
-<wire x1="4.9" y1="1.1" x2="-4.9" y2="1.1" width="0.127" layer="40"/>
-<wire x1="-4.9" y1="1.1" x2="-4.9" y2="-1.1" width="0.127" layer="40"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="HDRVR4W75P254_1X4_1066X254X850B" urn="urn:adsk.eagle:package:4517829/1" locally_modified="yes" type="model">
-<description>Single-row, 4-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 10.66 X 2.54 X 8.50 mm body
-&lt;p&gt;Single-row (1X4), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 10.66 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="HDRVR4W75P254_1X4_1066X254X850B"/>
-</packageinstances>
-</package3d>
-<package3d name="HDRV4W64P254_1X4_1016X254X838B" urn="urn:adsk.eagle:package:7911617/1" locally_modified="yes" type="model">
-<description>Single-row, 4-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 10.16 X 2.54 X 8.38 mm body
-&lt;p&gt;Single-row (1X4), 4-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 10.16 X 2.54 X 8.38 mm, pin pattern - counter-clockwise from bottom left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="HDRV4W64P254_1X4_1016X254X838B"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="1X04">
-<wire x1="3.81" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<text x="3.556" y="-8.128" size="0.635" layer="96" font="vector" ratio="10" align="top-right">&gt;VALUE</text>
-<text x="3.556" y="5.588" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right">&gt;NAME</text>
-<pin name="1" x="7.62" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="7.62" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="7.62" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1X04" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="1X04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_PTH_VERT-FEMALE_2.54MM" package="HDRVR4W75P254_1X4_1066X254X850B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4517829/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC041LFBN-RC&amp;v=35" constant="no"/>
-<attribute name="DISTPN" value="S7037-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PPPC041LFBN-RC" constant="no"/>
-<attribute name="VALUE" value="1x04 VERT FEMALE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH_VERT_MALE_2.54MM" package="HDRV4W64P254_1X4_1016X254X838B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7911617/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/C10436.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC04SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-04-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC04SAAN" constant="no"/>
-<attribute name="VALUE" value="PTH VERT MALE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PiB_power_symbols">
 <packages>
 </packages>
@@ -1056,9 +925,6 @@
 </class>
 </classes>
 <parts>
-<part name="OLED_CONN" library="PiB_connectors" deviceset="1X04" device="_PTH_VERT-FEMALE_2.54MM" package3d_urn="urn:adsk.eagle:package:4517829/1" value="1x04 VERT FEMALE"/>
-<part name="SUPPLY1" library="PiB_power_symbols" deviceset="3V" device=""/>
-<part name="SUPPLY2" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="U1" library="ATTINY84-20SSU" deviceset="ATTINY84-20SSU" device=""/>
 <part name="BT1" library="BAT-HLD-001-TR" deviceset="BAT-HLD-001-TR" device=""/>
 <part name="SUPPLY3" library="PiB_power_symbols" deviceset="3V" device=""/>
@@ -1079,36 +945,30 @@
 <text x="-59.69" y="-36.83" size="1.4224" layer="95">ISP_CONN</text>
 </plain>
 <instances>
-<instance part="OLED_CONN" gate="G$1" x="1.27" y="13.97" smashed="yes">
-<attribute name="VALUE" x="4.826" y="5.842" size="0.635" layer="96" font="vector" ratio="10" align="top-right"/>
-<attribute name="NAME" x="4.826" y="19.558" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="25.4" y="19.05" smashed="yes"/>
-<instance part="SUPPLY2" gate="GND" x="22.86" y="2.54" smashed="yes"/>
 <instance part="U1" gate="A" x="-46.99" y="3.81" smashed="yes">
 <attribute name="NAME" x="-59.69" y="20.05" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="-59.69" y="-15.43" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="BT1" gate="G$1" x="-90.17" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="-87.63" y="-5.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-110.49" y="-1.27" size="1.778" layer="96"/>
+<instance part="BT1" gate="G$1" x="-85.09" y="-1.27" smashed="yes" rot="R270">
+<attribute name="NAME" x="-82.55" y="-2.54" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-105.41" y="1.27" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="-26.67" y="19.05" smashed="yes"/>
-<instance part="SUPPLY4" gate="G$1" x="-87.63" y="19.05" smashed="yes"/>
-<instance part="SUPPLY5" gate="GND" x="-90.17" y="-16.51" smashed="yes"/>
+<instance part="SUPPLY4" gate="G$1" x="-82.55" y="21.59" smashed="yes"/>
+<instance part="SUPPLY5" gate="GND" x="-85.09" y="-13.97" smashed="yes"/>
 <instance part="SUPPLY6" gate="GND" x="-26.67" y="-13.97" smashed="yes"/>
-<instance part="LS1" gate="G$1" x="1.27" y="-29.21" smashed="yes">
-<attribute name="NAME" x="-5.092690625" y="-24.100359375" size="1.78391875" layer="95"/>
-<attribute name="VALUE" x="5.070809375" y="-34.3175" size="1.782290625" layer="96"/>
+<instance part="LS1" gate="G$1" x="-2.54" y="-3.81" smashed="yes">
+<attribute name="NAME" x="-8.902690625" y="1.299640625" size="1.78391875" layer="95"/>
+<attribute name="VALUE" x="1.260809375" y="-8.9175" size="1.782290625" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="1.27" y="-39.37" smashed="yes"/>
-<instance part="R1" gate="G$1" x="1.27" y="-16.51" smashed="yes" rot="R90">
-<attribute name="VALUE" x="2.413" y="-16.51" size="0.635" layer="96" font="vector" ratio="10" rot="R90" align="top-center"/>
-<attribute name="NAME" x="0.1524" y="-16.51" size="1.27" layer="95" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<instance part="SUPPLY7" gate="GND" x="-2.54" y="-13.97" smashed="yes"/>
+<instance part="R1" gate="G$1" x="-2.54" y="8.89" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-1.397" y="8.89" size="0.635" layer="96" font="vector" ratio="10" rot="R90" align="top-center"/>
+<attribute name="NAME" x="-3.6576" y="8.89" size="1.27" layer="95" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="S1" gate="1" x="-92.71" y="11.43" smashed="yes">
-<attribute name="NAME" x="-96.52" y="17.145" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-78.74" y="12.065" size="1.778" layer="96" rot="R180"/>
+<instance part="S1" gate="1" x="-87.63" y="13.97" smashed="yes">
+<attribute name="NAME" x="-91.44" y="19.685" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-73.66" y="14.605" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="JP1" gate="A" x="-53.34" y="-29.21" smashed="yes">
 <attribute name="NAME" x="-59.69" y="-23.495" size="1.778" layer="95"/>
@@ -1122,14 +982,8 @@
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="22.86" y1="5.08" x2="22.86" y2="16.51" width="0.1524" layer="91"/>
-<pinref part="OLED_CONN" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="16.51" x2="8.89" y2="16.51" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="-90.17" y1="-11.43" x2="-90.17" y2="-13.97" width="0.1524" layer="91"/>
+<wire x1="-85.09" y1="-8.89" x2="-85.09" y2="-11.43" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -1140,7 +994,7 @@
 </segment>
 <segment>
 <pinref part="LS1" gate="G$1" pin="N"/>
-<wire x1="1.27" y1="-34.29" x2="1.27" y2="-36.83" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-11.43" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -1152,12 +1006,6 @@
 </net>
 <net name="3V" class="0">
 <segment>
-<pinref part="SUPPLY1" gate="G$1" pin="3V"/>
-<wire x1="25.4" y1="19.05" x2="25.4" y2="13.97" width="0.1524" layer="91"/>
-<pinref part="OLED_CONN" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="13.97" x2="8.89" y2="13.97" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="VCC"/>
 <wire x1="-29.21" y1="16.51" x2="-26.67" y2="16.51" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3V"/>
@@ -1165,7 +1013,7 @@
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
-<wire x1="-87.63" y1="16.51" x2="-87.63" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="-82.55" y1="19.05" x2="-82.55" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3V"/>
 </segment>
 <segment>
@@ -1178,21 +1026,21 @@
 <net name="N$1" class="0">
 <segment>
 <pinref part="LS1" gate="G$1" pin="P"/>
-<wire x1="1.27" y1="-24.13" x2="1.27" y2="-21.59" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.81" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PIEZO" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PB3"/>
-<wire x1="-29.21" y1="-3.81" x2="-26.67" y2="-3.81" width="0.1524" layer="91"/>
-<label x="-26.67" y="-3.81" size="1.4224" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="13.97" x2="-2.54" y2="16.51" width="0.1524" layer="91"/>
+<label x="-2.54" y="16.51" size="1.4224" layer="95"/>
+<label x="-2.54" y="16.51" size="1.4224" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="1.27" y1="-11.43" x2="1.27" y2="-8.89" width="0.1524" layer="91"/>
-<label x="1.27" y="-8.89" size="1.4224" layer="95"/>
-<label x="1.27" y="-8.89" size="1.4224" layer="95"/>
+<pinref part="U1" gate="A" pin="PA3"/>
+<wire x1="-64.77" y1="3.81" x2="-67.31" y2="3.81" width="0.1524" layer="91"/>
+<label x="-67.31" y="3.81" size="1.4224" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -1202,21 +1050,21 @@
 <label x="-26.67" y="8.89" size="1.4224" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="-55.88" y1="-26.67" x2="-62.23" y2="-26.67" width="0.1524" layer="91"/>
-<label x="-62.23" y="-26.67" size="1.4224" layer="95" rot="R180"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="-48.26" y1="-29.21" x2="-41.91" y2="-29.21" width="0.1524" layer="91"/>
+<label x="-41.91" y="-29.21" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PA3"/>
-<wire x1="-64.77" y1="3.81" x2="-67.31" y2="3.81" width="0.1524" layer="91"/>
-<label x="-67.31" y="3.81" size="1.4224" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="-55.88" y1="-31.75" x2="-62.23" y2="-31.75" width="0.1524" layer="91"/>
 <label x="-62.23" y="-31.75" size="1.4224" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="PB3"/>
+<wire x1="-29.21" y1="-3.81" x2="-26.67" y2="-3.81" width="0.1524" layer="91"/>
+<label x="-26.67" y="-3.81" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="SDA/MOSI" class="0">
@@ -1226,22 +1074,12 @@
 <label x="-26.67" y="6.35" size="1.4224" layer="95"/>
 </segment>
 <segment>
-<pinref part="OLED_CONN" gate="G$1" pin="4"/>
-<wire x1="8.89" y1="8.89" x2="11.43" y2="8.89" width="0.1524" layer="91"/>
-<label x="11.43" y="8.89" size="1.4224" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="-48.26" y1="-29.21" x2="-41.91" y2="-29.21" width="0.1524" layer="91"/>
-<label x="-41.91" y="-29.21" size="1.4224" layer="95"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="-55.88" y1="-26.67" x2="-62.23" y2="-26.67" width="0.1524" layer="91"/>
+<label x="-62.23" y="-26.67" size="1.4224" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCL/SCK" class="0">
-<segment>
-<pinref part="OLED_CONN" gate="G$1" pin="3"/>
-<wire x1="8.89" y1="11.43" x2="11.43" y2="11.43" width="0.1524" layer="91"/>
-<label x="11.43" y="11.43" size="1.4224" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="A" pin="PA4"/>
 <wire x1="-29.21" y1="11.43" x2="-26.67" y2="11.43" width="0.1524" layer="91"/>
@@ -1256,13 +1094,17 @@
 <net name="N$2" class="0">
 <segment>
 <pinref part="BT1" gate="G$1" pin="+"/>
-<wire x1="-90.17" y1="3.81" x2="-90.17" y2="6.35" width="0.1524" layer="91"/>
+<wire x1="-85.09" y1="6.35" x2="-85.09" y2="8.89" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-29.21,16.51,U1,VCC,3V,,,"/>
+<approved hash="113,1,-52.1123,-27.7444,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
